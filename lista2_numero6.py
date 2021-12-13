@@ -1,0 +1,10 @@
+km0=int(input("digite a quilometragem inicial do dia"))
+km=int(input("digite a quilometragem final do dia"))
+g=int(input("digite a gasolina gasta no dia"))
+v=int(input("digite o valor recebido no dia"))
+c=(km-km0)/g
+a=(2.75*g)
+l=(v-a)
+print("sua média de consumo de gasolina foi de ",c,)
+print(" km/L, o seu gato em gasolina foi de ",a,)
+print(" reais e seu lucro liquido foi de ",l," reais")
